@@ -3,53 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自我介绍</title>
+    <title>个人介绍 - 许佳豪</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background-color: #fff;
+            max-width: 800px;
+            margin: 20px auto;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 300px;
+            line-height: 1.6;
+        }
+        .profile-container {
             text-align: center;
         }
-        .container h1 {
-            margin-bottom: 20px;
-        }
-        .container img {
-            width: 100px;
-            height: 100px;
+        .profile-photo {
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
-            margin-bottom: 20px;
-            object-fit: cover;
+            border: 3px solid #007BFF;
+            margin: 20px 0;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
         }
-        .container p {
-            margin: 10px 0;
-            font-size: 16px;
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
+    <div class="profile-container">
+        <!-- 替换为你的照片路径 -->
+        <img src="C:\dawdadw\555.jpg" alt="许佳豪的照片" class="profile-photo">
+        
+        <h1>许佳豪</h1>
+        
+        <div class="section">
+            <h2>👋 自我介绍</h2>
+            <p>你好！我是许佳豪，泉州海洋学院计算机科学专业的学生。热爱编程与技术创新，专注于全栈开发领域。</p>
+        </div>
 
-<div class="container">
-    <h1>自我介绍</h1>
-    <!-- 图片路径：确保 photo.jpg 文件与 index.html 在同一目录下 -->
-    <img src="C:/dawdadw/555.jpg" alt="个人照片">
-    <p><strong>姓名：</strong>许佳豪</p >
-    <p><strong>优点：</strong>学习能力强，乐于助人</p >
-    <p><strong>缺点：</strong>有时过于追求完美</p >
-    <p><strong>座右铭：</strong>永不放弃！</p >
-</div>
+        <div class="section">
+            <h2>🎓 教育背景</h2>
+            <p>泉州海洋学院 | 计算机科学与技术 | 2022级</p>
+            <p>主修课程：Web开发、数据结构、数据库系统</p>
+        </div>
 
+        <div class="section">
+            <h2>💻 技术能力</h2>
+            <p>前端：HTML/CSS/JavaScript</p>
+            <p>后端：Node.js/Python</p>
+            <p>数据库：MySQL/MongoDB</p>
+        </div>
+    </div>
 </body>
 </html>
